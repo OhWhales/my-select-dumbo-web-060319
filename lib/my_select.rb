@@ -11,4 +11,5 @@ def my_select(collection)
     i = i + 1  
    end 
  end 
+ return newArr
 end

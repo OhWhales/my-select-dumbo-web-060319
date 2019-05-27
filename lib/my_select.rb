@@ -3,8 +3,10 @@ def my_select(collection)
  if block_given?
    
    i = 0 
-   
+   newArr=[]
    while ( i < collection.size)
-    
+    if (yield(collection[i])) == true 
+      newArr.push(yield(collection[i]))
+    end 
   
 end

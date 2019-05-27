@@ -9,5 +9,5 @@ def my_select(collection)
       newArr.push(yield(collection[i]))
     end 
     i = i + 1  
-  
+   end 
 end

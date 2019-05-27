@@ -8,5 +8,6 @@ def my_select(collection)
     if (yield(collection[i])) == true 
       newArr.push(yield(collection[i]))
     end 
+    i = i + 1  
   
 end
